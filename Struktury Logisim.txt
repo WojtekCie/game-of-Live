@@ -1,0 +1,413 @@
+- Element importowany z biblioteki:
+// lib='' to numer biblioteki przypisywany na początku kodu
+
+<comp lib='7' loc='(690,300)' name='main'/>
+
+
+- Tunel:
+
+    <comp lib='0' loc='(560,9410)' name='Tunnel'>  //Pozycja
+      <a name='facing' val='east'/>                //Orientacja
+      <a name='width' val='4'/>                    //Wielkość Pinu
+      <a name='label' val='901'/>                  //Label
+    </comp>
+
+
+- Constant:
+
+    <comp lib="0" loc="(470,250)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+
+
+------------------Generowanie Podłączonej komurki Środkowej:------------------------
+
+<comp lib='7' loc='(1760,510)' name='main'/>
+    <comp lib='0' loc='(1760,520)' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1760,530)' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1760,570)' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1760,580)' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1680,520)' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1680,530)' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>    
+    <comp lib='0' loc='(1680,570)' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>    
+    <comp lib='0' loc='(1680,580)' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='Pinnnnn'/>
+    </comp>
+    <comp lib='0' loc='(1760,550)' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='2'/>
+    </comp>
+    <comp lib='0' loc='(1710,510)' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>
+    <comp lib='0' loc='(1720,510)' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>
+    <comp lib='0' loc='(1730,510)' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>
+    <comp lib='0' loc='(1690,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>
+    <comp lib='0' loc='(1710,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>
+    <comp lib='0' loc='(1720,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>
+    <comp lib='0' loc='(1730,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>
+    <comp lib='0' loc='(1740,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X1'/>
+    </comp>
+    <comp lib='0' loc='(1750,590)' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y0'/>
+    </comp>
+
+Exel:
+
+=ZŁĄCZ.TEKSTY("<comp lib='7' loc='(";1760+20*10*E$6;",";510+20*10*$B7;")' name='main'/>";"<comp lib='0' loc='(";1760+20*10*E$6;",";520+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";F6;"'/>                </comp>";"<comp lib='0' loc='(";1760+20*10*E$6;",";530+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";F7;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*E$6;",";570+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";F8;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*E$6;",";580+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";E8;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*E$6;",";520+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";D8;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*E$6;",";530+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";D7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*E$6;",";570+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";D6;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*E$6;",";580+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E6;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*E$6;",";550+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";E7;"'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*E$6;",";510+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*E$6;",";510+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*E$6;",";510+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>";"<comp lib='0' loc='(";1690+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>";"<comp lib='0' loc='(";1740+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X";E$6;"'/>
+    </comp>";"<comp lib='0' loc='(";1750+20*10*E$6;",";590+20*10*$B7;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y";$B7;"'/>
+    </comp>")
+---------------------------------------------------------------------------------
+
+
+
+------------------Generowanie Podłączonej komurki Gornej:------------------------
+
+Excel: 
+
+=ZŁĄCZ.TEKSTY("<comp lib='7' loc='(";1760+20*10*D$6;",";510+20*10*$B6;")' name='main'/>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";520+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";530+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";570+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*D$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";D7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";520+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";C7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";530+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";C6;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";570+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E6;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E7;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*D$6;",";550+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";D6;"'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>";"<comp lib='0' loc='(";1690+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>";"<comp lib='0' loc='(";1740+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X";D$6;"'/>
+    </comp>";"<comp lib='0' loc='(";1750+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y";$B6;"'/>
+    </comp>")
+--------------------------------------------------------------------------------
+
+
+
+------------------Generowanie Podłączonej komurki Lewej:------------------------
+
+Excel:
+
+=ZŁĄCZ.TEKSTY("<comp lib='7' loc='(";1760+20*10*D$6;",";510+20*10*$B6;")' name='main'/>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";520+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";530+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*D$6;",";570+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*D$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";D7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";520+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E5;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";530+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";D5;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";570+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E6;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*D$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";E7;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*D$6;",";550+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";D6;"'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*D$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>";"<comp lib='0' loc='(";1690+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>";"<comp lib='0' loc='(";1740+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X";D$6;"'/>
+    </comp>";"<comp lib='0' loc='(";1750+20*10*D$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y";$B6;"'/>
+    </comp>")
+--------------------------------------------------------------------------------
+
+
+
+------------------Generowanie Podłączonej komurki Prawej:------------------------
+
+Excel:
+
+=ZŁĄCZ.TEKSTY("<comp lib='7' loc='(";1760+20*10*AI$6;",";510+20*10*$B6;")' name='main'/>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";520+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";530+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";570+20*10*$B6;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*AI$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";AI7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";520+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AH7;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";530+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AH6;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";570+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AH5;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";580+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AI5;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*AI$6;",";550+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";AI6;"'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*AI$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*AI$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*AI$6;",";510+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>";"<comp lib='0' loc='(";1690+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>";"<comp lib='0' loc='(";1740+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X";AI$6;"'/>
+    </comp>";"<comp lib='0' loc='(";1750+20*10*AI$6;",";590+20*10*$B6;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y";$B6;"'/>
+    </comp>")
+--------------------------------------------------------------------------------
+
+
+
+------------------Generowanie Podłączonej komurki Dolnej:------------------------
+
+Excel:
+
+=ZŁĄCZ.TEKSTY("<comp lib='7' loc='(";1760+20*10*AI$6;",";510+20*10*$B37;")' name='main'/>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";520+20*10*$B37;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";530+20*10*$B37;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"    <comp lib='0' loc='(";1760+20*10*AI$6;",";570+20*10*$B37;")' name='Constant'>
+      <a name='value' val='0x0'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*AI$6;",";580+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";AJ37;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";520+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AJ36;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";530+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AH37;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";570+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AH36;"'/>
+    </comp>";"<comp lib='0' loc='(";1680+20*10*AI$6;",";580+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='east'/>
+      <a name='label' val='";AI36;"'/>
+    </comp>";"<comp lib='0' loc='(";1760+20*10*AI$6;",";550+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='west'/>
+      <a name='label' val='";AI37;"'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*AI$6;",";510+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='lonely'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*AI$6;",";510+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='born'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*AI$6;",";510+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='south'/>
+      <a name='width' val='4'/>
+      <a name='label' val='overcrowded'/>
+    </comp>";"<comp lib='0' loc='(";1690+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Reset'/>
+    </comp>";"<comp lib='0' loc='(";1710+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK'/>
+    </comp>";"<comp lib='0' loc='(";1720+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='CLK Enabler'/>
+    </comp>";"<comp lib='0' loc='(";1730+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Overwrite'/>
+    </comp>";"<comp lib='0' loc='(";1740+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='X";AI$6;"'/>
+    </comp>";"<comp lib='0' loc='(";1750+20*10*AI$6;",";590+20*10*$B37;")' name='Tunnel'>
+      <a name='facing' val='north'/>
+      <a name='label' val='Y";$B37;"'/>
+    </comp>")
+--------------------------------------------------------------------------------
