@@ -192,93 +192,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(690,320)" to="(700,320)"/>
     <wire from="(720,630)" to="(730,630)"/>
     <wire from="(570,320)" to="(580,320)"/>
-    <comp lib="3" loc="(520,570)" name="Comparator">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="1" loc="(560,260)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(370,570)" name="Constant"/>
-    <comp lib="0" loc="(480,580)" name="Constant">
-      <a name="width" val="5"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="3" loc="(350,360)" name="Comparator">
-      <a name="width" val="7"/>
-    </comp>
-    <comp lib="0" loc="(660,180)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(420,560)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0xf"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="1" loc="(520,520)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(450,320)" name="Counter">
-      <a name="width" val="5"/>
-      <a name="max" val="0x10"/>
-      <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="0" loc="(210,350)" name="Pin">
-      <a name="width" val="7"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(760,640)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(1100,500)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(420,330)" name="Constant"/>
-    <comp lib="1" loc="(820,770)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(990,470)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(300,370)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x61"/>
-    </comp>
-    <comp lib="1" loc="(590,780)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(600,410)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(990,550)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(280,670)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x64"/>
-    </comp>
-    <comp lib="0" loc="(480,340)" name="Constant">
-      <a name="width" val="5"/>
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(510,180)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(610,330)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -289,20 +203,106 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="3" loc="(530,330)" name="Comparator">
       <a name="width" val="5"/>
     </comp>
+    <comp lib="0" loc="(510,180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(480,340)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(370,570)" name="Constant"/>
+    <comp lib="3" loc="(520,570)" name="Comparator">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="4" loc="(420,560)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0x9"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="4" loc="(450,320)" name="Counter">
+      <a name="width" val="5"/>
+      <a name="max" val="0xa"/>
+      <a name="ongoal" val="stay"/>
+    </comp>
+    <comp lib="0" loc="(280,670)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x64"/>
+    </comp>
+    <comp lib="1" loc="(990,470)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(540,430)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="3" loc="(350,360)" name="Comparator">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="0" loc="(480,580)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(420,330)" name="Constant"/>
+    <comp lib="0" loc="(210,350)" name="Pin">
+      <a name="width" val="7"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(990,550)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(660,180)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="labelloc" val="east"/>
+    </comp>
     <comp lib="3" loc="(320,660)" name="Comparator">
       <a name="width" val="7"/>
+    </comp>
+    <comp lib="0" loc="(400,320)" name="Constant">
+      <a name="width" val="5"/>
+      <a name="value" val="0x10"/>
     </comp>
     <comp lib="0" loc="(390,560)" name="Constant">
       <a name="width" val="5"/>
       <a name="value" val="0xf"/>
     </comp>
-    <comp lib="0" loc="(400,320)" name="Constant">
-      <a name="width" val="5"/>
-      <a name="value" val="0x10"/>
+    <comp lib="1" loc="(820,770)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(600,410)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(760,640)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(520,520)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(590,780)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(560,260)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(610,330)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(300,370)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x61"/>
     </comp>
   </circuit>
 </project>

@@ -111,52 +111,23 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(290,230)" to="(290,280)"/>
     <wire from="(220,230)" to="(290,230)"/>
     <wire from="(540,250)" to="(550,250)"/>
-    <comp lib="0" loc="(160,240)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x77"/>
+    <comp lib="1" loc="(320,290)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
+    <comp lib="0" loc="(350,250)" name="Constant"/>
     <comp lib="0" loc="(160,410)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x72"/>
     </comp>
-    <comp lib="0" loc="(420,210)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="5"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="1" loc="(270,310)" name="AND Gate">
+    <comp lib="1" loc="(540,250)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="3" loc="(220,160)" name="Comparator">
-      <a name="width" val="7"/>
-    </comp>
-    <comp lib="3" loc="(490,250)" name="Comparator">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(160,310)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0x73"/>
-    </comp>
-    <comp lib="0" loc="(260,400)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
     <comp lib="4" loc="(390,240)" name="Counter">
       <a name="width" val="5"/>
-      <a name="max" val="0x1f"/>
+      <a name="max" val="0x13"/>
       <a name="ongoal" val="stay"/>
-    </comp>
-    <comp lib="0" loc="(160,170)" name="Constant">
-      <a name="width" val="7"/>
-      <a name="value" val="0xa"/>
-    </comp>
-    <comp lib="0" loc="(260,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="3" loc="(220,300)" name="Comparator">
       <a name="width" val="7"/>
@@ -165,21 +136,50 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="7"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="3" loc="(220,400)" name="Comparator">
+    <comp lib="0" loc="(160,240)" name="Constant">
       <a name="width" val="7"/>
+      <a name="value" val="0x77"/>
     </comp>
-    <comp lib="1" loc="(540,250)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(420,210)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="5"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(320,290)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="3" loc="(490,250)" name="Comparator">
+      <a name="width" val="5"/>
     </comp>
     <comp lib="3" loc="(220,230)" name="Comparator">
       <a name="width" val="7"/>
     </comp>
-    <comp lib="0" loc="(350,250)" name="Constant"/>
+    <comp lib="0" loc="(160,310)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0x73"/>
+    </comp>
+    <comp lib="1" loc="(270,310)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="3" loc="(220,400)" name="Comparator">
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="0" loc="(260,160)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(160,170)" name="Constant">
+      <a name="width" val="7"/>
+      <a name="value" val="0xa"/>
+    </comp>
+    <comp lib="0" loc="(260,400)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="3" loc="(220,160)" name="Comparator">
+      <a name="width" val="7"/>
+    </comp>
     <comp lib="0" loc="(450,260)" name="Constant">
       <a name="width" val="5"/>
       <a name="value" val="0x0"/>

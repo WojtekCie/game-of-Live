@@ -64,34 +64,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-anchor facing="east" height="6" width="6" x="77" y="67"/>
     </appear>
     <wire from="(550,220)" to="(550,230)"/>
+    <wire from="(150,270)" to="(310,270)"/>
     <wire from="(480,200)" to="(540,200)"/>
     <wire from="(450,280)" to="(450,410)"/>
-    <wire from="(200,410)" to="(200,420)"/>
-    <wire from="(350,280)" to="(400,280)"/>
-    <wire from="(670,110)" to="(670,200)"/>
-    <wire from="(570,200)" to="(670,200)"/>
-    <wire from="(670,110)" to="(770,110)"/>
-    <wire from="(350,270)" to="(460,270)"/>
-    <wire from="(350,290)" to="(460,290)"/>
-    <wire from="(220,390)" to="(260,390)"/>
-    <wire from="(150,270)" to="(310,270)"/>
     <wire from="(300,390)" to="(330,390)"/>
+    <wire from="(200,410)" to="(200,420)"/>
     <wire from="(480,90)" to="(480,200)"/>
+    <wire from="(350,280)" to="(400,280)"/>
     <wire from="(400,230)" to="(550,230)"/>
     <wire from="(300,410)" to="(450,410)"/>
+    <wire from="(670,110)" to="(670,200)"/>
     <wire from="(450,280)" to="(460,280)"/>
+    <wire from="(570,200)" to="(670,200)"/>
     <wire from="(560,220)" to="(560,280)"/>
     <wire from="(400,230)" to="(400,280)"/>
     <wire from="(250,410)" to="(260,410)"/>
+    <wire from="(670,110)" to="(770,110)"/>
+    <wire from="(350,270)" to="(460,270)"/>
+    <wire from="(350,290)" to="(460,290)"/>
     <wire from="(240,290)" to="(310,290)"/>
+    <wire from="(220,390)" to="(260,390)"/>
     <wire from="(410,90)" to="(480,90)"/>
     <wire from="(490,280)" to="(560,280)"/>
     <wire from="(70,420)" to="(200,420)"/>
+    <comp lib="0" loc="(150,270)" name="Pin">
+      <a name="width" val="5"/>
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="4" loc="(220,390)" name="Counter">
       <a name="max" val="0x5a"/>
     </comp>
+    <comp lib="3" loc="(300,400)" name="Comparator"/>
+    <comp lib="1" loc="(490,280)" name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="0" loc="(410,90)" name="Pin">
-      <a name="width" val="32"/>
+      <a name="width" val="20"/>
       <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(250,410)" name="Constant">
@@ -101,31 +110,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(770,110)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
-      <a name="width" val="32"/>
+      <a name="width" val="20"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="3" loc="(300,400)" name="Comparator"/>
+    <comp lib="4" loc="(570,200)" name="Register">
+      <a name="width" val="20"/>
+      <a name="trigger" val="high"/>
+    </comp>
     <comp lib="0" loc="(240,290)" name="Pin">
       <a name="width" val="5"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(150,270)" name="Pin">
+    <comp lib="3" loc="(350,280)" name="Comparator">
       <a name="width" val="5"/>
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="1" loc="(490,280)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(70,420)" name="Pin">
       <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(570,200)" name="Register">
-      <a name="width" val="32"/>
-      <a name="trigger" val="high"/>
-    </comp>
-    <comp lib="3" loc="(350,280)" name="Comparator">
-      <a name="width" val="5"/>
     </comp>
   </circuit>
 </project>
